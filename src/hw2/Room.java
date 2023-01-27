@@ -2,7 +2,7 @@ package hw2;
 
 public class Room {
 
-  private int maxOccupancy;
+  private final int maxOccupancy;
   private double price;
   private int numberOfGuests;
 

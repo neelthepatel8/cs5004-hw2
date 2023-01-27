@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="483e7c4a-0339-48db-a291-22d2c593d6b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/hw2/Locker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw2/MailItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw2/Recipient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw2/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw2/RoomType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/hw2/LockerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/hw2/MailItemTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/hw2/RecipientTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/hw2/RoomTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/hw2/RoomTypeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework-3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/homework-3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hw2/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw2/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hw2/RoomType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw2/RoomType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +53,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
     "create.test.in.the.same.root": "true",
+    "last_opened_file_path": "/Users/neelthepatel/NEU/sem-2-spring-23/cs5004/class-3/homework-3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -72,6 +66,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
