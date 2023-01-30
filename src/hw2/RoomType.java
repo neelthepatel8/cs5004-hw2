@@ -3,7 +3,7 @@ package hw2;
 /**
  * The enum Room type.
  */
-public enum RoomType extends Room {
+public enum RoomType {
   /**
    * Single room type.
    */
