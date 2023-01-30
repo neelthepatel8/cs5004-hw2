@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="483e7c4a-0339-48db-a291-22d2c593d6b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hw2/Locker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw2/Locker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hw2/MailItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw2/MailItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hw2/Recipient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw2/Recipient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hw2/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw2/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hw2/RoomType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw2/RoomType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/hw2/LockerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/hw2/LockerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/hw2/MailItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/hw2/MailItemTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/hw2/RecipientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/hw2/RecipientTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/hw2/RoomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/hw2/RoomTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/hw2/RoomTypeTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +174,7 @@
       <workItem from="1674763591058" duration="2284000" />
       <workItem from="1674839414743" duration="12642000" />
       <workItem from="1674943134074" duration="1220000" />
-      <workItem from="1675104195072" duration="2177000" />
+      <workItem from="1675104195072" duration="2230000" />
     </task>
     <servers />
   </component>
