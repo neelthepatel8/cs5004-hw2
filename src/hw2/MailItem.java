@@ -8,7 +8,7 @@ public class MailItem {
   private final int width;
   private final int height;
   private final int depth;
-  private final Recipient recipient;
+  private final Recipient Recipient;
 
   /**
    * Instantiates a new Mail item.
@@ -16,27 +16,27 @@ public class MailItem {
    * @param width     the width
    * @param height    the height
    * @param depth     the depth
-   * @param recipient the recipient
+   * @param Recipient the Recipient
    */
-  public MailItem(int width, int height, int depth, Recipient recipient) {
+  public MailItem(int width, int height, int depth, Recipient Recipient) {
 
-    boolean badInput = width < 1 || height < 1 || depth < 1 || recipient == null;
+    boolean badInput = width < 1 || height < 1 || depth < 1 || Recipient == null;
 
     if (badInput) throw new IllegalArgumentException();
 
     this.width = width;
     this.height = height;
     this.depth = depth;
-    this.recipient = recipient;
+    this.Recipient = Recipient;
   }
 
   /**
-   * Gets recipient.
+   * Gets Recipient.
    *
-   * @return the recipient
+   * @return the Recipient
    */
   public Recipient getRecipient() {
-    return recipient;
+    return Recipient;
   }
 
   /**
