@@ -1,13 +1,16 @@
 package hw2;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
 import java.util.Random;
 
+/**
+ * The type Room test.
+ */
 public class RoomTest {
 
   private double getRandomPrice(boolean bad) {
@@ -28,6 +31,9 @@ public class RoomTest {
     return allTypes[random.nextInt(0, allTypes.length)];
   }
 
+  /**
+   * Test good constructor.
+   */
   public void testGoodConstructor() {
     double price;
     RoomType roomType;
@@ -41,6 +47,9 @@ public class RoomTest {
     }
   }
 
+  /**
+   * Test bad constructor.
+   */
   @Test(expected = IllegalArgumentException.class)
   public void testBadConstructor() {
     double price;
@@ -54,11 +63,17 @@ public class RoomTest {
     }
   }
 
+  /**
+   * Is available.
+   */
   @Test
   public void isAvailable() {
 
   }
 
+  /**
+   * Test good book room single.
+   */
   @Test
   public void testGoodBookRoomSingle() {
     Room singleRoom = new Room(RoomType.SINGLE, 100);
@@ -66,6 +81,9 @@ public class RoomTest {
     assertEquals(1, singleRoom.getNumberOfGuests());
   }
 
+  /**
+   * Test bad book room single.
+   */
   @Test
   public void testBadBookRoomSingle() {
 
@@ -79,6 +97,9 @@ public class RoomTest {
     }
   }
 
+  /**
+   * Test good book room double.
+   */
   @Test
   public void testGoodBookRoomDouble() {
 
@@ -92,6 +113,9 @@ public class RoomTest {
     }
   }
 
+  /**
+   * Test bad book room double.
+   */
   @Test
   public void testBadBookRoomDouble() {
 
@@ -105,6 +129,9 @@ public class RoomTest {
     }
   }
 
+  /**
+   * Test good book room family.
+   */
   @Test
   public void testGoodBookRoomFamily() {
 
@@ -118,6 +145,9 @@ public class RoomTest {
     }
   }
 
+  /**
+   * Test bad book room family.
+   */
   @Test
   public void testBadBookRoomFamily() {
 
@@ -131,6 +161,9 @@ public class RoomTest {
     }
   }
 
+  /**
+   * Test book room multiple times.
+   */
   @Test
   public void testBookRoomMultipleTimes() {
     Room room = new Room(RoomType.FAMILY, 100);
@@ -144,12 +177,18 @@ public class RoomTest {
     assertEquals(3, room.getNumberOfGuests());
   }
 
+  /**
+   * Test availability before booking.
+   */
   @Test
   public void testAvailabilityBeforeBooking() {
     Room room = new Room(RoomType.SINGLE, 100);
     assertTrue(room.isAvailable());
   }
 
+  /**
+   * Test availability after booking.
+   */
   @Test
   public void testAvailabilityAfterBooking() {
     Room room = new Room(RoomType.SINGLE, 100);

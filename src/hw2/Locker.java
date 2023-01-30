@@ -1,5 +1,8 @@
 package hw2;
 
+/**
+ * The type Locker.
+ */
 public class Locker {
 
   private final int maxWidth;
@@ -7,6 +10,13 @@ public class Locker {
   private final int maxDepth;
   private MailItem mailItem;
 
+  /**
+   * Instantiates a new Locker.
+   *
+   * @param maxWidth  the max width
+   * @param maxHeight the max height
+   * @param maxDepth  the max depth
+   */
   public Locker(int maxWidth, int maxHeight, int maxDepth) {
 
     boolean badInput = maxWidth < 1 || maxHeight < 1 || maxDepth < 1;
@@ -19,18 +29,29 @@ public class Locker {
     this.mailItem = null;
   }
 
+  /**
+   * Add mail.
+   *
+   * @param mail the mail
+   */
   public void addMail(MailItem mail) {
 
     if (this.mailItem != null) return;
 
-    if (mail.getWidth() > this.maxWidth ||
-        mail.getHeight() > this.maxHeight ||
-        mail.getDepth() > this.maxDepth)
+    if (mail.getWidth() > this.maxWidth
+            || mail.getHeight() > this.maxHeight
+            || mail.getDepth() > this.maxDepth)
       return;
 
     this.mailItem = mail;
   }
 
+  /**
+   * Pickup mail mail item.
+   *
+   * @param recipient the recipient
+   * @return the mail item
+   */
   public MailItem pickupMail(Recipient recipient) {
 
     if (this.mailItem == null) return null;
@@ -40,5 +61,14 @@ public class Locker {
     MailItem mail = this.mailItem;
     this.mailItem = null;
     return mail;
+  }
+
+  /**
+   * Gets mail item.
+   *
+   * @return the mail item
+   */
+  public MailItem getMailItem() {
+    return mailItem;
   }
 }

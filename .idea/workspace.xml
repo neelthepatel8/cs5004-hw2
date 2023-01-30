@@ -5,11 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="483e7c4a-0339-48db-a291-22d2c593d6b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hw2/Locker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw2/Locker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hw2/MailItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw2/MailItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hw2/Recipient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw2/Recipient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hw2/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw2/Room.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hw2/RoomType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw2/RoomType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/hw2/LockerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/hw2/LockerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/hw2/MailItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/hw2/MailItemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/hw2/RecipientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/hw2/RecipientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/hw2/RoomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/hw2/RoomTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/hw2/RoomTypeTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +61,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
     "create.test.in.the.same.root": "true",
+    "full.screen.before.presentation.mode": "true",
     "last_opened_file_path": "/Users/neelthepatel/NEU/sem-2-spring-23/cs5004/class-3/homework-3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -62,6 +71,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -76,7 +86,37 @@
       <recent name="hw2" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RoomTest">
+  <component name="RunManager" selected="JUnit.LockerTest">
+    <configuration name="LockerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homework-3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hw2" />
+      <option name="MAIN_CLASS_NAME" value="hw2.LockerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MailItemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homework-3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hw2" />
+      <option name="MAIN_CLASS_NAME" value="hw2.MailItemTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RoomTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="homework-3" />
       <extension name="coverage">
@@ -88,22 +128,6 @@
       <option name="PACKAGE_NAME" value="hw2" />
       <option name="MAIN_CLASS_NAME" value="hw2.RoomTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RoomTest.testBadBookRoomSingle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="homework-3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hw2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hw2" />
-      <option name="MAIN_CLASS_NAME" value="hw2.RoomTest" />
-      <option name="METHOD_NAME" value="testBadBookRoomSingle" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,10 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LockerTest" />
+        <item itemvalue="JUnit.MailItemTest" />
         <item itemvalue="JUnit.RoomTest" />
         <item itemvalue="JUnit.RoomTest.testGoodBookRoomDouble" />
         <item itemvalue="JUnit.RoomTest.testGoodBookRoomSingle" />
-        <item itemvalue="JUnit.RoomTest.testBadBookRoomSingle" />
       </list>
     </recent_temporary>
   </component>
@@ -159,10 +184,16 @@
       <updated>1674763589937</updated>
       <workItem from="1674763591058" duration="2284000" />
       <workItem from="1674839414743" duration="12642000" />
+      <workItem from="1674943134074" duration="1220000" />
+      <workItem from="1675104195072" duration="2177000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
