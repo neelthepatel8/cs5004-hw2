@@ -64,14 +64,6 @@ public class RoomTest {
   }
 
   /**
-   * Is available.
-   */
-  @Test
-  public void isAvailable() {
-
-  }
-
-  /**
    * Test good book room single.
    */
   @Test
