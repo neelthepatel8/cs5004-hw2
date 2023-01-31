@@ -5,9 +5,9 @@ package hw2;
  */
 public class Recipient {
 
-  private final String firstName;
-  private final String lastName;
-  private final String email;
+  private String firstName;
+  private String lastName;
+  private String email;
 
   /**
    * Instantiates a new Recipient.
@@ -18,6 +18,7 @@ public class Recipient {
    */
   public Recipient(String firstName, String lastName, String email) {
 
+    if (firstName == null || lastName == null || email == null) return;
     boolean badInput = isBadString(firstName)
             || isBadString(lastName)
             || isBadString(email);
@@ -36,6 +37,6 @@ public class Recipient {
 
   @Override
   public String toString() {
-    return String.format("%s %s Email: %s", this.firstName, this.lastName, this.email);
+    return String.format("%s %s Email:%s", this.firstName, this.lastName, this.email);
   }
 }
