@@ -18,12 +18,12 @@ public class Recipient {
    */
   public Recipient(String firstName, String lastName, String email) {
 
-    if (firstName == null || lastName == null || email == null) return;
+    boolean nullInput = firstName == null || lastName == null || email == null;
     boolean badInput = isBadString(firstName)
             || isBadString(lastName)
             || isBadString(email);
 
-    if (badInput)
+    if (badInput || nullInput)
       throw new IllegalArgumentException();
 
     this.firstName = firstName;
