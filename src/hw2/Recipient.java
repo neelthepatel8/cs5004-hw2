@@ -19,11 +19,14 @@ public class Recipient {
   public Recipient(String firstName, String lastName, String email) {
 
     boolean nullInput = firstName == null || lastName == null || email == null;
+    if (nullInput)
+      throw new IllegalArgumentException();
+
     boolean badInput = isBadString(firstName)
             || isBadString(lastName)
             || isBadString(email);
 
-    if (badInput || nullInput)
+    if (badInput)
       throw new IllegalArgumentException();
 
     this.firstName = firstName;
