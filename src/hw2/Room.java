@@ -31,11 +31,16 @@ public class Room {
    * @return the occupancy
    */
   public int getOccupancy(RoomType type) {
-    return switch (type) {
-      case SINGLE -> 1;
-      case DOUBLE -> 2;
-      case FAMILY -> 4;
-    };
+    switch (type) {
+      case SINGLE:
+        return 1;
+      case DOUBLE:
+        return 2;
+      case FAMILY:
+        return 4;
+      default:
+        return 0;
+    }
   }
 
   /**
